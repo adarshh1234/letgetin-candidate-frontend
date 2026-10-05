@@ -59,6 +59,15 @@ export default function DashboardLayout({
     "/performance": "Performance",
     "/promotions": "Promotions",
     "/mydive": "My Dive Analytics",
+    "/onboarding": "Candidate Onboarding Workspace",
+    "/onboarding/welcome": "Onboarding - Welcome & Offer",
+    "/onboarding/personal": "Onboarding - Personal Information",
+    "/onboarding/documents": "Onboarding - Document Verification",
+    "/onboarding/bank": "Onboarding - Bank & Tax Setup",
+    "/onboarding/policies": "Onboarding - Company Policies",
+    "/onboarding/training": "Onboarding - Foundation Training",
+    "/onboarding/team": "Onboarding - Meet Your Team",
+    "/onboarding/checklist": "Onboarding - Day 1 Checklist",
   };
 
   const currentTitle = pageTitles[pathname] || "Dashboard Workspace";

@@ -50,7 +50,7 @@ export const InterviewCompletedView: React.FC<InterviewCompletedViewProps> = ({
       evaluationDate: new Date().toISOString(),
     };
 
-  const companyName = interview.companyName || interview.department || 'Growww Financial Technologies';
+  const companyName = interview.department || 'Growww Financial Technologies';
   const position = interview.position || 'Senior Full Stack Developer';
 
   return (

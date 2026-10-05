@@ -230,31 +230,24 @@ export function DashboardSidebar({
   ],
 },
     {
-  title: "INTERVIEW",
-  items: [
-    {
-      name: "AI Assessment",
-      shortName: "Assessment",
-      href: "/interviews/assessment",
-      icon: ClipboardCheck,
-      description: "AI skill assessments & technical evaluations",
+      title: "INTERVIEW",
+      items: [
+        {
+          name: "Interview Schedule",
+          shortName: "Schedule",
+          href: "/interviews/schedule",
+          icon: Calendar,
+          description: "Manage interview calendar & slots",
+        },
+        {
+          name: "Video Interview",
+          shortName: "Video",
+          href: "/interviews/ai-practice",
+          icon: Video,
+          description: "Live interactive video interview suite",
+        },
+      ],
     },
-    {
-      name: "AI Interview Practice",
-      shortName: "AI Practice",
-      href: "/interviews/ai-practice",
-      icon: Bot,
-      description: "AI-powered mock interview practice",
-    },
-    {
-      name: "Interview Schedule",
-      shortName: "Schedule",
-      href: "/interviews/schedule",
-      icon: Calendar,
-      description: "Manage interview calendar & slots",
-    },
-  ],
-},
     {
       title: "PROFILE+",
       items: [
